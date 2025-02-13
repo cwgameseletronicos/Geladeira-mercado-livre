@@ -1,0 +1,290 @@
+@media only screen and (max-width: 600px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Liter&display=swap');
+ 
+    body{
+        display: flex;
+        box-sizing: border-box;
+        
+        justify-content: center;
+        align-items: center;
+
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    h1{
+        position: absolute;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+       
+       top: 38px;
+       width: 90%;
+
+       font-size: 20px;
+       font-weight: 400;
+
+
+    }
+
+     .proxima-pagina{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        
+
+        justify-content: center;
+        align-items: center;
+
+        
+        
+        border-radius: 7px;
+        box-shadow: 1px 1px 18px rgb(210, 210, 210);
+     }
+    .caixa-1 {
+        display: flex;
+        position: absolute;
+        width: 90%;
+        height: 140px;
+        
+
+        justify-content: center;
+        align-items: center;
+
+        top: 13%;
+        
+        border-radius: 7px;
+        box-shadow: 1px 1px 18px rgb(210, 210, 210);
+    }
+
+
+    .enviar{
+        justify-content: center;
+        align-items: center;
+
+        display: flex;
+        position: absolute;
+
+        
+        font-size: 18px;
+
+        left: 5%;
+        top: 0%;
+
+        
+        font-weight: 500;
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+    }
+
+    .comerciante{
+        text-decoration: none;
+        color: #000000;
+        justify-content: center;
+        align-items: center;
+
+        display: inline;
+        position: absolute;
+
+    
+        left: 5%;
+        font-size: 18px;
+
+        margin: 0%;
+
+        
+        
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .link{
+        text-decoration: none;
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+
+        color: #3587F2;
+        
+
+        left: 5%;
+        bottom: 8%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+    }
+
+    .gratis{
+
+        text-decoration: none;
+        color: #03A64A;
+        justify-content: center;
+        align-items: center;
+
+        display: flex;
+        position: absolute;
+
+        
+        font-size: 18px;
+
+        right: 5%;
+        top: 10%;
+
+        
+       
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .container-mercado-livre{
+        width: 90%;
+        height: 200px;
+
+        
+
+        display: flex;
+        position: absolute;
+
+        align-items: center;
+        justify-content: center;
+
+        top: 260px;
+
+        box-shadow: 1px 1px 18px rgb(210, 210, 210);
+        border-radius: 7px;
+    }
+
+    .retirar{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+
+        left: 5%;
+        top: 5%;
+
+        font-size: 18px;
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .mts{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+
+        left: 5%;
+        top: 25%;
+
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+    }
+
+    .segunda{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+
+        left: 5%;
+        top: 55%;
+        color: rgba(128, 128, 128, 0.842);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .ver-agencia{
+        display: flex;
+        position: absolute;
+
+        width: 100%;
+        height: 170px;
+
+        justify-content: center;
+        align-items: center;
+
+        left: 5%;
+        bottom: 10%;
+        text-decoration: none;
+        color: #3587F2;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .gratis2{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+
+        right: 5%;
+        top: 5%;
+        font-size: 18px;
+        text-decoration: none;
+        color: #03A64A;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .caixa-bnt{
+        width: 100%;
+        height: 200px;
+
+        
+
+        display: flex;
+        position: absolute;
+
+        align-items: center;
+        justify-content: center;
+
+        
+
+        box-shadow: 1px 1px 18px rgb(210, 210, 210);
+        border-radius: 7px;
+    }
+    
+    .ver{
+        display: flex;
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+
+    left: 5%;
+    bottom: 2%;
+    text-decoration: none;
+    color: #3587F2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .caixa-amarela{
+        height: 80px;
+        width: 100%;
+
+        display: flex;
+        position: absolute;
+
+        border-radius: 7px;
+
+        background: yellow;
+    }
+}

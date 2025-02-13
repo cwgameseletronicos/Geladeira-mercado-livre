@@ -1,0 +1,210 @@
+@media only screen and (max-width: 600px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Liter&display=swap');
+
+  
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .container-verde{
+        height: 130px;
+        width: 100%;
+
+        background: #03A64A;
+
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .container-branco{
+        width: 60px;
+        height: 60px;
+
+        display: flex;
+        position: absolute;
+
+        background: white;
+
+        border-radius: 30px;
+
+        justify-content: center;
+        align-items: center;
+
+        right: 10%;
+        top: 5%;
+    }
+
+    .cadeado{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+    }
+
+    .container-informacoes{
+        justify-content: center;
+        align-items: center;
+
+        height: 55%;
+        width: 90%;
+
+        display: flex;
+        position: absolute;
+
+        align-items: center;
+
+    justify-content: center;
+
+        top: 150px;
+
+        border-radius: 10px;
+
+        box-shadow: 1px 1px 18px rgb(210, 210, 210);
+    }
+
+    .lista-pix{
+        display: block;
+        position: absolute;
+
+        left: 3%;
+        top: 10%;
+        line-height: 0.9;
+
+
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+
+
+    }
+
+    .container-pix {
+        width: 90%;
+        height: 50px;
+        overflow: hidden;
+
+        align-items: center;
+        text-indent: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        border-radius: 10px;
+        border: 2px solid gray;
+        top: 40%;
+
+        display: flex;
+        position: absolute;
+    }
+
+   
+
+    .copie{
+        display: flex;
+
+        justify-content: left;
+        position: absolute;
+        align-items: center;
+
+        left: 7%;
+        top: 1%;
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+
+        font-size: 16px;
+    }
+
+    .minhas-compras{
+        text-decoration: none;
+        bottom: 5%;
+        
+
+        color: #3483FA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        font-weight: 400;
+
+
+    }
+
+    
+
+    .valor-da-compra{
+        color: white;
+
+        display: flex;
+        position: absolute;
+
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+
+        left: 10%;
+
+        font-weight: 600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+
+
+    }
+
+    .button-copiar{
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+
+        background: #3483FA;
+        color: white;
+        top: 70%;
+        font-size: 15px;
+
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       
+        border: white;
+        display: flex;
+        position: absolute;
+    }
+
+    .text-pagamento{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+
+        left: 5%;
+        top: 230px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        font-size: 10px;
+
+    }
+
+    
+
+}
